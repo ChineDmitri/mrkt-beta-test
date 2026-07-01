@@ -1,0 +1,14 @@
+{
+  "name": "mrkt-land-beta-tests",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Beta-test proposals and bug reports for the MRKT.land platform.",
+  "scripts": {
+    "lint": "eslint .",
+    "check": "node --check 1-pop-up/user-scipt.js",
+    "ci": "npm run lint && npm run check"
+  },
+  "devDependencies": {
+    "eslint": "^9.39.4"
+  }
+}
